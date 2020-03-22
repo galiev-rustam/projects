@@ -1,0 +1,127 @@
+h1  {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.keycontainer {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+
+.keyboard {
+    border: 1px solid slategrey;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    width: 692px;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.key {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid slategrey;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.key:hover {
+    color: #fff;
+    background: rgb(82, 148, 214);
+    cursor: pointer;
+}
+
+.backspace {
+    width: 76px;
+}
+
+.tab, .capslock {
+    width: 60px;
+}
+
+.lshift {
+    width: 72px;
+}
+
+.rshift {
+    width: 90px;
+}
+.command {
+    width: 50px;
+}
+.rctrl {
+    width: 69px;
+}
+
+.space {
+    width: 240px;
+}
+
+.window {
+    width: 20px;
+    padding-top: 5px;
+}
+
+.letter-key {
+    font-size: 10px;
+    line-height: 100%;
+}
+.small-key {
+    font-size: 7px;
+    line-height: 50px
+
+}
+.enter {
+    position: absolute;
+    right: 5px;
+    top: 51px;
+    width: 56px;
+    height: 87px;
+}
+ .up-down {
+    width: 30px;
+ }
+
+ .key-active {
+    color: #fff;
+    background: slategrey;
+ } 
+
+input {
+    margin-top: 10px;
+    margin-bottom: 30px;
+ }

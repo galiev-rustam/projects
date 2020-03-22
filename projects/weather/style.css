@@ -1,0 +1,19 @@
+.text-center {
+    text-align: center;
+}
+
+.b_city_info {
+    margin-top: 20px;
+}
+
+.w-max, 
+.w-min,
+.sunset,
+.sunrise {
+    font-size: small;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+}
