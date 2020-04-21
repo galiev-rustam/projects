@@ -308,9 +308,15 @@ body {
   background-color: #212349;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .heading,
   .subheading {
     font-size: 30px;
   }
+
+  .hero-image::before {
+    width: 480px;
+    height: 800px;
+  }
+  
 }
