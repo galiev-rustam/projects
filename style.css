@@ -273,6 +273,7 @@ body {
 .projects img {
   display: block;
   margin-bottom: 40px;
+  object-fit: contain;
 }
 
 .button {
